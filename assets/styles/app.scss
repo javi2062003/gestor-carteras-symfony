@@ -1,0 +1,15 @@
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables"; // Aquí podrías definir $primary: #tuColor;
+@import "~bootstrap/scss/mixins";
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.container {
+    max-width: 960px;
+}
