@@ -1,8 +1,6 @@
-// src/Entity/Activo.php
-// ...
+<?php
 class Activo
 {
-    // ... otras propiedades (id, nombre, tipo) ...
 
     #[ORM\Column]
     private ?float $valor = null;
@@ -36,3 +34,4 @@ class Activo
         return $this;
     }
 }
+?>
